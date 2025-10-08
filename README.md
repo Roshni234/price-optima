@@ -1,6 +1,6 @@
 # 🚗 PriceOptima — AI-Powered Dynamic Pricing System
 
-RideOptima is an intelligent **dynamic pricing platform** built for ride-hailing services.  
+PriceOptima is an intelligent **dynamic pricing platform** built for ride-hailing services.  
 It leverages **machine learning** to recommend optimal ride prices in real time — balancing profitability, fairness, and customer satisfaction.
 
 ## 🧩 Problem Statement
@@ -25,9 +25,11 @@ RideOptima automatically adjusts fares using ML insights to achieve **fair, data
    - Upload a CSV file with multiple ride records.  
    - The backend performs batch predictions and computes key performance indicators (KPIs) such as:
      - Revenue (baseline vs scenario)
-     - Gross Margin
-     - Cancellation Rate
-     - Price Change Rate  
+     - Revenue lift
+     - Gross Margin(baseline vs scenario)
+     - Conversion rate(baseline vs scenario)
+     - Cancellation Rate(baseline vs scenario)
+     - Price Change Rate 
    - Interactive charts built with **Recharts** visualize the pricing outcomes.
 
 ## ⚙️ Tech Stack
